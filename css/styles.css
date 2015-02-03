@@ -1,0 +1,67 @@
+
+html {
+
+	background: url(img/frog.jpg);"
+	background-size: cover;
+}
+
+
+.images {
+	width: 500px;
+	height: 500px;
+	
+}
+
+
+.h1{
+	color:blue;
+	text-align: center;
+	padding: 200px;
+	
+
+}
+
+.introduction {
+	background-color: green;
+	margin: 30px;
+	border: 1px solid black;
+	margin-left: 330px;
+	
+}
+
+.textleft{
+	width: 47%;
+	float: left;
+	margin: 5px;
+	padding: 10px;
+	border: 2px solid black;
+	
+}
+
+.textright {
+	width: 47%;
+	float: left;
+	text-align: right;
+	margin: 5px;
+	padding: 10px;
+	border: 2px solid black;
+	
+}
+
+
+a:link {
+    color:blue;
+    text-decoration:none;
+}
+a:visited {
+    color:green;
+    text-decoration:none;
+}
+a:hover {
+    color:orange;
+    text-decoration:none;
+}
+a:active {
+    color:red;
+    text-decoration:none;
+}
