@@ -1,15 +1,11 @@
 
-html {
-
-	background: url(img/frog.jpg);"
-	background-size: cover;
-}
-
 
 .images {
-	width: 500px;
-	height: 500px;
-	
+	position: fixed;
+	top: 0;
+	left:0;
+	min-width: 100%;
+	min-height: 100%;
 }
 
 
@@ -17,15 +13,21 @@ html {
 	color:blue;
 	text-align: center;
 	padding: 200px;
-	
 
 }
 
-.introduction {
-	background-color: green;
-	margin: 30px;
-	border: 1px solid black;
+.container {
+	
+	margin: 50px;
+	padding:50px;
+	border: 1px;
+	border-style: solid;
+	border-color: #9FF781;
 	margin-left: 330px;
+	width: 500px;
+	height: 600px;
+	float:right;
+
 	
 }
 
