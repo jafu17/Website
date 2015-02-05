@@ -26,40 +26,22 @@
 <div class= "categories">
 </div>
 
-<script>
-var information = {
-	person: {link_lable: "Person", content: "<b>Hi everybody!</b> I'm Jara, a 19 old girl enjoying her gap year before starting the next chapter of education at the university."},
-	life: {link_lable: "Life", content:"<h2> Where my roots lie </h2> <br/> Grown up in Hedingen, a village near Zürich, I've always felt attracted to our great city at the lake. Zürich is with its various inhabitants and visitors, its idyllic lakeside and vibrant nightlife the perfect antipode to my rural parish where I can enjoy the nature by  jogging trip or just at our terrace. "},
-	hobbies: {link_lable:"Hobbys", content:"<h3>Not enough time!</h2>I think most of you can identify ourselfe if I complain about having too little time to do all the stuff I'd like to. Being liberated from the weight of learning at the weekends and after school, I admit that I have much more time for myselfe. But still not enough to bring "},
+
+
+	<p> <h2>Hi everybody!</h2> I'm Jara, a 19 old girl enjoying her gap year before starting the next chapter of education at the university. </p>
+
+	<p> <h2> Where my roots lie </h2> <br/> Grown up in Hedingen, a village near Zürich, I've always felt attracted to our great city at the lake. Zürich is with its various inhabitants and visitors, its idyllic lakeside and vibrant nightlife the perfect antipode to my rural parish where I can enjoy the nature by  jogging trip or just at our terrace. </p>
+
+	<p> <h2>Not enough time!</h2>I think most of you can identify ourselfe if I complain about having too little time to do all the stuff I'd like to. Being liberated from the weight of learning at the weekends and after school, I admit that I have much more time for myselfe. But still not enough to do all the things I want, especially sports. </p>
 	
 
-}
-
-
-$(document).ready(function(){
-
-	for(var key in information) {
-
-		$(".categories").append("<p id="+key+">" +information[key].link_lable+ "</p>")
-	}
-
-	$("p").click(function(){
-		var id = $(this).attr("id");
-		$(".container").text(information[id].content)
-			
-
-			});
-	
-});
-
-
-		
 
 
 
 
 
-</script>
+
+
 
 
 
