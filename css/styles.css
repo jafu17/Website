@@ -28,9 +28,18 @@ a{
    	padding: 10px;
 }
 
+.paragraphs{
+	width: 500px;
+}
+
+.contactinfos{
+	display: table-cell;
+    vertical-align: middle;
+    width:50px;
+    float: right;
 
 
-
+}
 
 .container {
 	margin: 50px;
