@@ -16,8 +16,8 @@
 
 
 .navbar{
-		list-style-type: none;
-		display: inline;
+	list-style-type: none;
+	display: inline;
 
 }
 a{
@@ -29,7 +29,9 @@ a{
 }
 
 .paragraphs{
-	width: 500px;
+	float: right;
+
+
 }
 
 .contactinfos{
@@ -37,6 +39,7 @@ a{
     vertical-align: middle;
     width:50px;
     float: right;
+   
 
 
 }
