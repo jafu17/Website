@@ -12,28 +12,36 @@
  <!--<div class= "image">
 	<img src="img/frog.jpg" alt="waterfall" style= "width:700px; height:400px">
 </div> -->
-	
+
 
 <div style= "background-image: url(img/frog.jpg); background-position:center; 
 ">
 	<h1 class= "h1" >Welcome to my first own website!</h1>
 </div>
 
+<br/><br/><br/><br/>
+
+<div class="table">
+	<table> 
+		<thead> 
+		    <th>What do you want to know about me?</th>
+		<thead>
+		<tbody class="images">
+			<tr> 
+				<td><a href= "#person"> <img id="person" src= "img/girl.jpg" alt="Girl" heigth="200" width="200" style="padding:100px"><a> </td>
+			    <td><a href= "#home"> <img id="home" src= "img/house-home.jpg" alt="House-Home" heigth="200" width="200" style="padding:100px"><a> </td>
+				<td><a href= "#hobbys"> <img id="hobbys"src= "img/tennis.gif" alt="Tennis" heigth="200" width="200" style="padding:100px"><a> </td>
+			</tr>
+			<tr> 
+				<td><a href= "#contact"> <img src= "img/phone.jpg" alt="Contact" heigth="200px" width="200px" style="padding:100px"><a> </td>
+			    <td><a href= "#travel"> <img src= "img/CostaRica.jpg" alt="Costa Rica" heigth="200px" width="200px" style="padding:100px" ><a> </td>
+				<td><a href= "#education"> <img src= "img/computer.jpg" alt="Computer" heigth="200px" width="200px" style="padding:100px"><a> </td>
+			</tr>
+	 
+		</tbody>
+	</table>
 
 
-<ul>                                 
-    <li class= "navbar">
-        <a class = "navbar" href="#person">Person</a>
-    </li>
-    <li class= "navbar" >
-        <a class = "navbar" href="#home">Home</a>
-    </li>
-    <li class= "navbar">
-   		<a class = "navbar" href="#hobbys">Hobbys</a>
-    </li>
-
-</ul>
-	 <br/><br/><br/>   
 
 
 <div class="paragraphs">
@@ -48,23 +56,46 @@
 	<p id= "hobbys"> <h2>Not enough time!</h2>I think most of you can identify ourselfe if I complain about having too little time to do all the stuff I'd like to. Being liberated from the weight of learning at the weekends and after school, I admit that I have much more time for myselfe. But still not enough to do all the things I want, especially sports. </p>
 
 	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+	<p id= "contact"> <h2>Write me!</h2>You want to contact me? I'd be glad to hear from you! <br/> <br/>
+		<form>
+			<div class="contactinfos" >
+				<input type = "text" placeholder= "First Name"></input>
+				<input type = "text" placeholder= "Last Name"></input>
+				<input type = "text" placeholder= "Street"></input>
+			</div>
+		</form>
+	</p>
+
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+	<p id= "travel"> <h2>Around the world... almost</h2>During a gap year, you certainly have to go abroud. That's exactly what I'm gonna do in April: First, I fligh to Costa Rica to learn spanish. Then, I meet a friend and travel with her north to cross the broder to Panama in July. After some relaxing days on a small island, we'll be heading with various stops to Panama City, where my friend's flight back home and mine to Cancun is waiting for us. In Cancun, I'll stay at a mexican family which my father knows since years. He's gonna join me as well! So I'll pass my last week with him before flying back on August 7th. Nice programm, don't you think? </p>
+
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+	<p id= "education"> <h2>Hello University!!</h2>Since I'm working in an IT-office, my choice of Wirtschaftsinformatik as course of studies doesn't surprise.  </p>
+
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 </div>
 
-<form>
-<div class="contactinfos" >
-	<input type = "text" placeholder= "First Name"></input>
-	<input type = "text" placeholder= "Last Name"></input>
-	<input type = "text" placeholder= "Street"></input>
 
-</div>
-</form>
+<script> 
 
-<script type="text/javascript">
+	$(document).ready(function(){
+		$(".paragraphs").hide();
+				
+		$("img").click(function(){
+			var id = $(this).attr("id");
+			//$("#" +id).show();
+			alert("#" +id);
+			console.log("#" +id);
+        }); 
+	});
+		
 
-
-
-
+	
 </script>
+
 
 
 

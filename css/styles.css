@@ -1,12 +1,6 @@
-
-.images {
-	position: fixed;
-	top: 0;
-	left:0;
-	min-width: 100%;
-	min-height: 100%;
+.images{
+	padding:150px;
 }
-
 
 .h1{
 	color:blue;
@@ -15,18 +9,12 @@
 }
 
 
-.navbar{
-	list-style-type: none;
-	display: inline;
+th{
+	font-size: 30px;
 
 }
-a{
-    text-decoration: none;
-    background-color: green;
-    color: black;
-   	margin: 20px;
-   	padding: 10px;
-}
+
+
 
 .paragraphs{
 	float: right;
@@ -34,7 +22,7 @@ a{
 
 }
 
-.contactinfos{
+/*.contactinfos{
 	display: table-cell;
     vertical-align: middle;
     width:50px;
@@ -44,17 +32,6 @@ a{
 
 }
 
-.container {
-	margin: 50px;
-	padding:50px;
-	border: 1px;
-	border-style: solid;
-	border-color: #9FF781;
-	margin-left: 330px;
-	width: 500px;
-	height: 600px;
-	float:right;	
-}
 
 
 
